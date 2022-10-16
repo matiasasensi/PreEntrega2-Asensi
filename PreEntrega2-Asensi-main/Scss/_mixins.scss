@@ -1,0 +1,38 @@
+@mixin redess($red){
+    @if $red == instagram{
+        color: map-get($redes, instagram);
+        
+    }@else if $red == facebook{
+        color: map-get($redes, facebook);
+        
+    }@else if $red == tiktok{
+        color: map-get($redes, tiktok);
+    }@else if $red == twitter{
+        color: map-get($redes, twitter);
+    }@else if $red == google{
+        color: map-get($redes, google);
+    }@else { 
+        color:map-get($redes, telegram);
+    }
+
+}
+
+@mixin flexrowcenter{
+	display: flex;
+	justify-content: center;
+	align-items : center;
+    margin: 20px;
+    padding: 1rem;
+    
+}
+
+@mixin botones 
+{
+    width: $width/3; 
+    height: $height/3;
+}
+
+@mixin nombre ($nombre)
+{
+
+}

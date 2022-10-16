@@ -1,0 +1,38 @@
+
+
+.facebook{
+    background-color: map-get($redes, facebook);
+}
+
+.twitter{
+    background-color: map-get($redes, twitter);
+}
+
+.instagram{
+    background-color: map-get($redes, instagram);
+}
+
+.telegram{
+    background-color: map-get($redes, telegram);
+    @include botones;
+}
+
+.tiktok{
+    background-color: map-get($redes, tiktok);
+}
+
+
+
+.proyectos1{
+    @include flexrowcenter;
+}
+
+.mapaunco{
+    height:$altura;
+}
+
+.feibu{
+    @include botones;
+
+}
+
