@@ -1,16 +1,27 @@
+
+
 .facebook{
-    @include redes(facebook);
-    height: $altura;
-    
+    background-color: map-get($redes, facebook);
+}
+
+.twitter{
+    background-color: map-get($redes, twitter);
 }
 
 .instagram{
-    @include redes(instagram);
+    background-color: map-get($redes, instagram);
 }
 
 .telegram{
-    @include redes(telegram);
+    background-color: map-get($redes, telegram);
+    @include botones;
 }
+
+.tiktok{
+    background-color: map-get($redes, tiktok);
+}
+
+
 
 .proyectos1{
     @include flexrowcenter;
@@ -24,3 +35,4 @@
     @include botones;
 
 }
+
